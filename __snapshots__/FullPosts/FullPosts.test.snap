@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Full Post list Components tests should match snapshot with posts 1`] = `
+<div>
+  <section
+    class="sc-fznyAO jZHfFf"
+  >
+    <div
+      class="sc-fzozJi fbloJs"
+    >
+      <select
+        class="sc-AxheI sc-Axmtr fCidwr"
+      >
+        <option
+          value=""
+        >
+          Select an author to filter...
+        </option>
+        <option
+          value="1"
+        >
+          Evandro
+        </option>
+        <option
+          value="2"
+        >
+          Not Evandro
+        </option>
+      </select>
+      <select
+        class="sc-AxheI sc-AxmLO hGTsIt"
+      >
+        <option
+          value="asc"
+        >
+          Newer
+        </option>
+        <option
+          selected=""
+          value="desc"
+        >
+          Older
+        </option>
+      </select>
+    </div>
+    <div
+      class="sc-AxjAm dhqLdI"
+    >
+      <div
+        class="sc-AxiKw fjZyxF"
+      >
+        <h1
+          class="sc-AxhCb jgBCPd"
+        >
+          Post Mock 1
+        </h1>
+        <span
+          class="sc-AxhUy KQMWy"
+        >
+          Evandro - 12/04/2017 10:47
+        </span>
+        <p
+          class="sc-AxgMl hfDYrB"
+        >
+          Post body 1
+        </p>
+      </div>
+      <hr
+        class="sc-AxirZ bzlkyb"
+      />
+    </div>
+    <div
+      class="sc-AxjAm dhqLdI"
+    >
+      <div
+        class="sc-AxiKw fjZyxF"
+      >
+        <h1
+          class="sc-AxhCb jgBCPd"
+        >
+          Post Mock 2
+        </h1>
+        <span
+          class="sc-AxhUy KQMWy"
+        >
+          Not Evandro - 12/04/2017 10:47
+        </span>
+        <p
+          class="sc-AxgMl hfDYrB"
+        >
+          Post body 2
+        </p>
+      </div>
+      <hr
+        class="sc-AxirZ bzlkyb"
+      />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Full Post list Components tests should match snapshot without posts 1`] = `
+<div>
+  <section
+    class="sc-fznyAO jZHfFf"
+  >
+    <div
+      class="sc-fzozJi fbloJs"
+    >
+      <select
+        class="sc-AxheI sc-Axmtr fCidwr"
+      >
+        <option
+          value=""
+        >
+          Select an author to filter...
+        </option>
+        <option
+          value="1"
+        >
+          Evandro
+        </option>
+        <option
+          value="2"
+        >
+          Not Evandro
+        </option>
+      </select>
+      <select
+        class="sc-AxheI sc-AxmLO hGTsIt"
+      >
+        <option
+          value="asc"
+        >
+          Newer
+        </option>
+        <option
+          selected=""
+          value="desc"
+        >
+          Older
+        </option>
+      </select>
+    </div>
+    <div
+      class="sc-fzoLsD ipAWrQ"
+      width="750px"
+    >
+      <div
+        class="sc-fzplWN gbXbLn"
+        height="35px"
+        width="50%"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN eIRGSC"
+        height="14px"
+        width="150px"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-fzoLsD ipAWrQ"
+      width="750px"
+    >
+      <div
+        class="sc-fzplWN gbXbLn"
+        height="35px"
+        width="50%"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN eIRGSC"
+        height="14px"
+        width="150px"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+    </div>
+    <div
+      class="sc-fzoLsD ipAWrQ"
+      width="750px"
+    >
+      <div
+        class="sc-fzplWN gbXbLn"
+        height="35px"
+        width="50%"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN eIRGSC"
+        height="14px"
+        width="150px"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+      <div
+        class="sc-fzplWN deCxWG"
+      >
+        <div
+          class="sc-fzpans JsRrg"
+        />
+      </div>
+    </div>
+  </section>
+</div>
+`;

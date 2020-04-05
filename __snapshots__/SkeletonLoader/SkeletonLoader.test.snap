@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton Loader Component tests should match snapshot with Full Post Skeleton 1`] = `
+<div>
+  <div
+    class="sc-AxjAm gzWmFB"
+    width="100%"
+  >
+    <div
+      class="sc-AxiKw hjXrwm"
+      height="35px"
+      width="50%"
+    >
+      <div
+        class="sc-AxirZ gdaiOc"
+      />
+    </div>
+    <div
+      class="sc-AxiKw cVglez"
+      height="14px"
+      width="150px"
+    >
+      <div
+        class="sc-AxirZ gdaiOc"
+      />
+    </div>
+    <div
+      class="sc-AxiKw gNLVbH"
+    >
+      <div
+        class="sc-AxirZ gdaiOc"
+      />
+    </div>
+    <div
+      class="sc-AxiKw gNLVbH"
+    >
+      <div
+        class="sc-AxirZ gdaiOc"
+      />
+    </div>
+    <div
+      class="sc-AxiKw gNLVbH"
+    >
+      <div
+        class="sc-AxirZ gdaiOc"
+      />
+    </div>
+    <div
+      class="sc-AxiKw gNLVbH"
+    >
+      <div
+        class="sc-AxirZ gdaiOc"
+      />
+    </div>
+    <div
+      class="sc-AxiKw gNLVbH"
+    >
+      <div
+        class="sc-AxirZ gdaiOc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Skeleton Loader Component tests should match snapshot with empty Skeleton 1`] = `
+<div>
+  <div
+    class="sc-AxjAm gzWmFB"
+  />
+</div>
+`;
+
+exports[`Skeleton Loader Component tests should match snapshot with single line and fixed Skeleton width 1`] = `
+<div>
+  <div
+    class="sc-AxjAm hUkaxC"
+    width="300px"
+  >
+    <div
+      class="sc-AxiKw iEFXjT"
+    >
+      <div
+        class="sc-AxirZ gdaiOc"
+      />
+    </div>
+  </div>
+</div>
+`;

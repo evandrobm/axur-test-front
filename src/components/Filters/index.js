@@ -5,7 +5,7 @@ import get from 'lodash/get'
 import { Container, AuthorSelect, SortSelect } from './styles'
 import { useFilters } from '../../contexts/filters'
 
-const handleChange = setter => event => {
+export const handleChange = setter => event => {
   const {
     target: { value }
   } = event
@@ -40,4 +40,9 @@ const Filters = ({ authors }) => {
 Filters.propTypes = {
   authors: array
 }
+
+Filters.defaultProps = {
+  authors: []
+}
+
 export default Filters

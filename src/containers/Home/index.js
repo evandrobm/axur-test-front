@@ -15,7 +15,7 @@ const getDate = get('metadata.publishedAt')
 const authorByPost = post => author =>
   get('id')(author) === get('metadata.authorId')(post)
 
-const compareDates = sort => (a, b) =>
+export const compareDates = sort => (a, b) =>
   sort === 'desc' ? getDate(b) - getDate(a) : getDate(a) - getDate(b)
 
 const fetchPostsData = async (setPosts, setAuthors) => {
@@ -29,7 +29,7 @@ const fetchPostsData = async (setPosts, setAuthors) => {
   )
 }
 
-const handleNavigation = post => () => {
+export const handleNavigation = post => () => {
   const reference = get('ref')(post)
   if (reference) {
     window.scrollTo(0, reference.offsetTop - 15)
@@ -40,7 +40,6 @@ const Home = () => {
   const [posts, setPosts] = useState([])
   const [authors, setAuthors] = useState([])
   const { sortBy, authorFilter } = useFilters()
-
   const filteredPosts = useMemo(
     () =>
       posts

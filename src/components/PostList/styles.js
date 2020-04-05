@@ -8,6 +8,10 @@ export const Container = styled.aside`
   background: #cccccc;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 700px) {
+    display: none;
+  }
 `
 
 export const BlogHeader = styled.header`

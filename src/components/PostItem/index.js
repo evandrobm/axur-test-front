@@ -13,10 +13,14 @@ import {
 } from './styles'
 
 const PostItem = ({ post }) => {
-  const date = useMemo(
-    () => format(get(post, 'metadata.publishedAt'), 'dd/MM/yyyy hh:mm'),
-    [post]
-  )
+  const date = useMemo(() => {
+    const datetime = get(post, 'metadata.publishedAt')
+    if (!datetime) {
+      return ''
+    }
+    return format(datetime, 'dd/MM/yyyy hh:mm')
+  }, [post])
+
   return (
     <Post
       ref={ref => {
@@ -34,7 +38,7 @@ const PostItem = ({ post }) => {
 }
 
 PostItem.propTypes = {
-  post: object
+  post: object.isRequired
 }
 
 export default PostItem

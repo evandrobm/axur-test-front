@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Components tests should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-AxjAm hmIWfq"
+  >
+    <select
+      class="sc-AxirZ sc-AxiKw hzbMIF"
+    >
+      <option
+        value=""
+      >
+        Select an author to filter...
+      </option>
+      <option
+        value="1"
+      >
+        Evandro
+      </option>
+      <option
+        value="2"
+      >
+        Not Evandro
+      </option>
+    </select>
+    <select
+      class="sc-AxirZ sc-AxhCb jcqQuS"
+    >
+      <option
+        value="asc"
+      >
+        Newer
+      </option>
+      <option
+        selected=""
+        value="desc"
+      >
+        Older
+      </option>
+    </select>
+  </div>
+</div>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts List Component tests should match snapshot 1`] = `
+<div>
+  <aside
+    class="sc-AxhCb jHmSzu"
+  >
+    <header
+      class="sc-AxhUy grRGfi"
+    >
+      <h1
+        class="sc-AxgMl dNFDPi"
+      >
+        Mocky Blog
+      </h1>
+    </header>
+    <div
+      class="sc-AxjAm fiDyqx"
+    >
+      <h1
+        class="sc-AxirZ gmymBN"
+      >
+        Post Mock
+      </h1>
+      <p
+        class="sc-AxiKw cLGqLR"
+      >
+        Post body with more than 45 charatcters so...
+      </p>
+    </div>
+    <div
+      class="sc-AxjAm fiDyqx"
+    >
+      <h1
+        class="sc-AxirZ gmymBN"
+      >
+        Post Mock Small
+      </h1>
+      <p
+        class="sc-AxiKw cLGqLR"
+      >
+        Post body with less than 45 charatcters
+      </p>
+    </div>
+  </aside>
+</div>
+`;

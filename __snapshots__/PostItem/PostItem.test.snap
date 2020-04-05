@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Full Post Item should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-AxjAm dhqLdI"
+  >
+    <div
+      class="sc-AxiKw fjZyxF"
+    >
+      <h1
+        class="sc-AxhCb jgBCPd"
+      >
+        Post Mock
+      </h1>
+      <span
+        class="sc-AxhUy KQMWy"
+      >
+        Evandro - 12/04/2017 10:47
+      </span>
+      <p
+        class="sc-AxgMl hfDYrB"
+      >
+        Post body
+      </p>
+    </div>
+    <hr
+      class="sc-AxirZ bzlkyb"
+    />
+  </div>
+</div>
+`;

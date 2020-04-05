@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home container tests should match snapshot 1`] = `
+<div>
+  <main
+    class="sc-fzoLag iiRdCn"
+  >
+    <aside
+      class="sc-AxhCb jHmSzu"
+    >
+      <header
+        class="sc-AxhUy grRGfi"
+      >
+        <h1
+          class="sc-AxgMl dNFDPi"
+        >
+          Mocky Blog
+        </h1>
+      </header>
+    </aside>
+    <section
+      class="sc-fzoyAV fwROSP"
+    >
+      <div
+        class="sc-fznZeY fergZy"
+      >
+        <select
+          class="sc-fzplWN sc-fznyAO NsLQw"
+        >
+          <option
+            value=""
+          >
+            Select an author to filter...
+          </option>
+        </select>
+        <select
+          class="sc-fzplWN sc-fznKkj cxmOcm"
+        >
+          <option
+            value="asc"
+          >
+            Newer
+          </option>
+          <option
+            selected=""
+            value="desc"
+          >
+            Older
+          </option>
+        </select>
+      </div>
+      <div
+        class="sc-fzokOt gySKXb"
+        width="750px"
+      >
+        <div
+          class="sc-fzqNJr hQmfWt"
+          height="35px"
+          width="50%"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr kYizYw"
+          height="14px"
+          width="150px"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-fzokOt gySKXb"
+        width="750px"
+      >
+        <div
+          class="sc-fzqNJr hQmfWt"
+          height="35px"
+          width="50%"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr kYizYw"
+          height="14px"
+          width="150px"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-fzokOt gySKXb"
+        width="750px"
+      >
+        <div
+          class="sc-fzqNJr hQmfWt"
+          height="35px"
+          width="50%"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr kYizYw"
+          height="14px"
+          width="150px"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+        <div
+          class="sc-fzqNJr fAiYJw"
+        >
+          <div
+            class="sc-fzqBZW jYDWDu"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;

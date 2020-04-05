@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import get from 'lodash/get'
 
-const getProp = (path, defaultValue = '') => props =>
+export const getProp = (path, defaultValue = '') => props =>
   get(props, path, defaultValue)
 
 export const Skeleton = styled.div`
