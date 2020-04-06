@@ -1,68 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created as an frontend test for Axur
 
-## Available Scripts
+There is a automated deployed version of this code on master in [Netlify](https://evandrobm-axur-test-front.netlify.com/).
 
-In the project directory, you can run:
+## Important informations
 
-### `yarn start`
+This application was built over an ejected create-react-app application, to win some time in development. There are some configurations and some changes in scripts to make a better use of webpack.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The UX/UI was made to be the simplier as possible, the application was develop as desktop first and adapted to don't break on mobile. The focus of this test was deliver the best code as possible with an simple and functional interface
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+As this was a single page blog, there is no router configured, to avoid adding complexity to the application
 
-### `yarn test`
+## Install, run and test
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For install the application you should be in the project directory, and then:
 
-### `yarn build`
+#### `npm install` or `yarn`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can run the app in the development mode. For this you will need to run:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### `npm start` or `yarn start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then, you can open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
-### `yarn eject`
+To run the unit tests of the application, you should run:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### `npm test` or `yarn test`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will run all application tests and check the test coverage over all source files. As will be explained later in this documentation, there are some hooks to grant 100% of tests coverage in code
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To build the project to production, use:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### `npm run build` or `yarn build`
 
-## Learn More
+This will generate a `build` folder where the static files will be, you can use this directory do deploy.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Final informations
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Code Organization
 
-### Code Splitting
+This project focused on componentization, so we have a logic layer with all bussiness rules and a presentational layer with small components to be used in application. This componentization idea will produce simplier code and components, there are wasier to code, read, understand and test.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+  /src
+    |--components // Here will be the smallest pieces of code, for the presentation layer
+    |--conatiners // Logic components, there are reponsible for bussiness rules and getting data from services
+    |--context // Here are all the application contexts, custom hooks are exported to send data to components
+    |--services // All connections external from application are made here and exported to be used in app
+```
 
-### Analyzing the Bundle Size
+Tests are created inside each component folder, to keep everything related together
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Code Quality
 
-### Making a Progressive Web App
+To ensure the code quality of the project, we have:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Custom lint rules
+- Prettier integration with eslint to keep consistency (I strongly recommend to use Prettier if you will contribute in this project)
+- Git hook for commit: Commits are only allowed if all lint rules are respected
+- Git hook for Push: Push to repository aree only allowed with all tests passing and 100% of threshold for code coverage
 
-### Advanced Configuration
+Jest and react-testing-library are used to make the unit tests, there will be a `coverage` folder after run tests with all the coverage reports, any line of code that are uncovered will be detailed there.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+#### Linting Rules
 
-### Deployment
+The main rules for code quality are:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- Limit cyclomatic complexity in 3
+- Max statements in functions are 10
+- Max nested callbacks are 2
+- Max depth of nested code blocks are 2
+- Max lines per file are 150
+- Use of `var` are not allowed
+- Erro using console for debugging
+- Prefer destructuring and spread
+- Add every dependency used inside useEffect
 
-### `yarn build` fails to minify
+## Thanks
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Any doubts or question, please contact me here on github, on `evandrobm@gmail.com` email ou in phone (or whatsapp) in +55 51 98100 0485.
+
+Hope you enjoy!
